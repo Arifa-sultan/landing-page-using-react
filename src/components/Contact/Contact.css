@@ -1,0 +1,104 @@
+/* General Section Styling */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-heading {
+    font-size: 2.5rem;
+    color: #ffdd00; /* Yellow for heading */
+    margin-bottom: 40px;
+  }
+  
+  /* Content Layout */
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Contact Form Styling */
+  .contact-form {
+    flex: 1 1 45%;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .form-input::placeholder,
+  .form-textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: #ffdd00; /* Yellow focus outline */
+    outline: none;
+  }
+  
+  .submit-btn {
+    display: inline-block;
+    background-color: #ffdd00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e6c700;
+  }
+  
+  /* Contact Info Styling */
+  .contact-info {
+    flex: 1 1 45%;
+    text-align: left;
+  }
+  
+  .info-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .contact-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  

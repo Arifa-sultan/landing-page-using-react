@@ -1,0 +1,62 @@
+/* General Section Styling */
+.testimonial-section {
+    padding: 60px 20px;
+background-color: rgb(230, 227, 227);
+    color: #fff; /* White text for contrast */
+  }
+  
+  .testimonial-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .testimonial-heading {
+    font-size: 2.5rem;
+    color:black; /* White color for the heading */
+    margin-bottom: 40px;
+  }
+  
+  /* Testimonial Grid Styling */
+  .testimonial-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  /* Testimonial Card Styling */
+  .testimonial-card {
+    background-color: #1a1a1a; /* Dark gray background for the cards */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    color: #fff; /* White text inside the cards */
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-10px); /* Hover effect */
+  }
+  
+  /* Text Styling */
+  .testimonial-feedback {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffdd00; /* Highlighted color for the name */
+  }
+  
+  .testimonial-designation {
+    font-size: 1rem;
+    color: #ccc; /* Light gray for the designation */
+  }
+  

@@ -1,0 +1,51 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo */
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4f46e5; /* Indigo */
+  }
+  
+  /* Links */
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333; /* Dark gray */
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #4f46e5; /* Indigo */
+  }
+  
+  /* Get Started Button */
+  .navbar-button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-button:hover {
+    background-color: #4338ca; /* Darker Indigo */
+  }
+  

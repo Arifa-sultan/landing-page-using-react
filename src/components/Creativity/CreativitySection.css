@@ -1,0 +1,74 @@
+.creativity-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .creativity-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .text-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    background-color: #6c63ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #4a4cb5;
+  }
+  
+  .image-grid {
+    flex: 1;
+  }
+  
+  .image-top-row,
+  .image-bottom-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .big-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .small-image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  

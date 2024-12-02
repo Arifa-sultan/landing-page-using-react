@@ -1,0 +1,63 @@
+/* General Section Styling */
+.study-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container Styling */
+  .study-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    gap: 30px;
+  }
+  
+  /* Text Content */
+  .study-text {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .study-text h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .study-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .study-btn {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .study-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Image Styling */
+  .study-image {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .study-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
